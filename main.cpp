@@ -2,6 +2,27 @@
 //  DO NOT MODIFY NEXT LINE
 //------------------------------
 #include "catch.hpp"
+#include <iostream>
+using namespace std;
+
+class Real;{
+  int real;
+  double GetReal(){
+    return real;
+} // class definition always ends with semicolon
+ class Complex; {
+  int real;
+  int imaginary;
+  double GetImaginary(){
+    return imaginary;
+}
+class Surreal; {
+  int surreal;
+  double GetReal();
+  double GetImaginary();
+  double GetSurreal(){
+    return surreal;
+}
 //------------------------------
 
 // Write the assignment code here
